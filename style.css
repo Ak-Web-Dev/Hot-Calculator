@@ -63,3 +63,43 @@ form #display input{
     border-color: rgb(78, 90, 158);
     border-width: 4px;
 }
+@media screen and (max-width: 600px) {
+    h1 {
+        color: white;
+        font-size: 25px;
+        margin-left: 20%;
+        margin-right: 15%;
+        background: linear-gradient(to top right, red, orange, red);
+        border-radius: 4px;
+    }
+    h1 img {
+        width: 30px;
+        border-radius: 2px;
+        margin: 6px;
+    }
+    #c {
+        position: absolute;
+        left: 14%;
+        top: 20%;
+        background: #3a4452;
+        padding: 20px;
+        border-radius: 6px;
+    }
+    h3 {
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+    #c form input {
+        border: 0;
+        outline: 0;
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        box-shadow: -4px -4px 7.5px rgba(255, 255, 255, 0.1), 2.5px 2.5px 7.5px rgba(0, 0, 0, 0.2);
+        background: transparent;
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+        margin: 6px;
+    }
+}
